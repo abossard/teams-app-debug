@@ -208,3 +208,4 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [Microsoft Teams Developer Platform](https://docs.microsoft.com/en-us/microsoftteams/platform/)
 
+Error while extracting package: Please ensure there are no folders in your app package and that your app package contains only the manifest.json and the two required icon files at its root level. For an easier experience creating your app package, install <a href="https://teams.microsoft.com/l/app/0c5cfdbb-596f-4d39-b557-5d9516c94107" target="_blank">App Studio</a> from the Teams Store.
