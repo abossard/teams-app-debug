@@ -8,8 +8,8 @@ RUN npm run build
 FROM node:lts as RUN
 WORKDIR /app/server
 COPY --from=BUILD /app/client /app/client
-COPY server/package.json .
+COPY package.json .
 RUN npm install
-COPY server /app/server
+COPY . /app/server
 EXPOSE 3000
 CMD ["npm", "start"]

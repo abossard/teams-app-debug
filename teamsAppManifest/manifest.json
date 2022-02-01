@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0",
-  "id": "<<YOUR-MICROSOFT-APP-ID>>",
+  "id": "c5358e94-b68c-4f74-a3f1-535c22466c89",
   "packageName": "com.microsoft.teams.bottabmesso",
   "webApplicationInfo": {
-    "id": "<<YOUR-MICROSOFT-APP-ID>>",
-    "resource": "api://<<DOMAIN-NAME>>/botid-<<YOUR-MICROSOFT-APP-ID>>"
+    "id": "c5358e94-b68c-4f74-a3f1-535c22466c89",
+    "resource": "api://slteamspoc.happydune-b79921fb.northeurope.azurecontainerapps.io/c5358e94-b68c-4f74-a3f1-535c22466c89"
 },
   "developer": {
     "name": "Microsoft",
@@ -31,25 +31,18 @@
     {
       "entityId": "com.contoso.tabsso",
       "name": "SSO Tab",
-      "contentUrl": "https://<<DOMAIN-NAME>>/tab",
+      "contentUrl": "https://7a4b-178-82-25-113.ngrok.io/tab",
       "scopes": [
         "personal"
       ]
     }
   ],
   "bots": [
-    {
-      "botId": "<<YOUR-MICROSOFT-APP-ID>>",
-      "scopes": [
-        "personal"
-      ],
-      "supportsFiles": false,
-      "isNotificationOnly": false
-    }
+    
   ],
   "composeExtensions": [
     {
-      "botId": "<<YOUR-MICROSOFT-APP-ID>>",
+      "botId": "c5358e94-b68c-4f74-a3f1-535c22466c89",
       "canUpdateConfiguration": true,
       "commands": [
         {
@@ -131,6 +124,7 @@
   "validDomains": [
     "*.githubusercontent.com",
     "*.botframework.com",
-    "*.ngrok.io"
+    "*.ngrok.io",
+    "*.azurecontainerapps.io"
   ]
 }
